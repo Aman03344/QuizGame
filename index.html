@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game-con" class="game-con"> <!-- Added id for styling -->
+            <h2 id="quizQuestion">Question this is the question container</h2>
+
+           <div class="ul-con">
+            <ul>
+                <li>
+                    <input type="radio" class="answer" id="optionA" name="quiz-option">
+                    <label for="optionA" id="text-topnA">optionA</label>
+                </li>
+
+                <li>
+                    <input type="radio" class="answer" id="optionB" name="quiz-option">
+                    <label for="optionB" id="text-topnB">optionB</label>
+                </li>
+
+                <li>
+                    <input type="radio" class="answer" id="optionC" name="quiz-option">
+                    <label for="optionC" id="text-topnC">optionC</label>
+                </li>
+
+                <li>
+                    <input type="radio" class="answer" id="optionD" name="quiz-option">
+                    <label for="optionD" id="text-topnD">optionD</label>
+                </li>
+            </ul>
+           </div>
+            <div class="btn-con">
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
